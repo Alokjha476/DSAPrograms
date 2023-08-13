@@ -12,6 +12,7 @@ public class Main {
                 System.out.println("Invalid");
                 return;
             } else {
+                // Logics
                 int a = num % 10; // last digit
                 int b = num / 10; // first digit
                 int c = b % 10; // last digit
@@ -30,10 +31,10 @@ public class Main {
                 } else if (num < 100) {
                     System.out.println(ty[b] + " " + sd[b]);
                 } else if (num < 1000){
-                    System.out.println(sd[d] + " " + hun + ""+ ty[c] + "" + sd[a]);
+                    System.out.println(sd[d] + " " + hun + " "+ ty[c] + " " + sd[a]);
                 }
                 else {
-                    System.out.println(sd[e]+ " "+th+" "+sd[d] + " " + hun + ""+ ty[c] + "" + sd[a]);
+                    System.out.println(sd[e]+ " "+th+ " " +sd[d] + " " + hun + " " +ty[c] + " " + sd[a]);
                 }
             }
         }
