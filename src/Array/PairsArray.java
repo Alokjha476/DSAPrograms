@@ -2,7 +2,7 @@ package Array;
 
 public class PairsArray {
     public static void pairsArr(int number[]){
-        int tp = 0;
+        int tp = 0; // find the total pair
 
         for (int i = 0; i < number.length ; i++) {
             //current

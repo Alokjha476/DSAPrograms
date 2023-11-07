@@ -130,7 +130,7 @@ public class Pattern {
 
             }
             // stars
-            for (int j = 1; j <= 2 * i - 1; j++) {    // odd number (2i -1)||(2i+1)
+            for (int j = 1; j <= 2 * i - 1; j++) {    // odd/ even number (2i -1)||(2i+1)
                 System.out.print("*");
 
             }

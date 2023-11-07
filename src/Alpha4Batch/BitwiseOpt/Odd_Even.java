@@ -62,11 +62,11 @@ public class Odd_Even {
     }
 
     public static boolean checknoPower(int n) {
-        return (n & (n - 1)) == 0;
-//        if ((n& n-1) == 0){
-//            return true;
-//        }
-//        return false;
+       // return (n & (n - 1)) == 0;
+        if ((n& n-1) == 0){
+            return true;
+        }
+        return false;
     }
 
     public static int countSetBit(int n) {
@@ -95,6 +95,7 @@ public class Odd_Even {
     }
 
     public static void main(String[] args) {
-        System.out.println(fastExpo(5, 3, 2));
+       // System.out.println(fastExpo(5, 3, 2));
+        checknoPower(16);
     }
 }

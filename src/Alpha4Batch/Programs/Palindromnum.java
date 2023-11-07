@@ -1,7 +1,5 @@
 package Alpha4Batch.Programs;
 
-import jdk.internal.cmm.SystemResourcePressureImpl;
-
 import java.util.Scanner;
 public class Palindromnum {
     public static void main(String[] args) {
