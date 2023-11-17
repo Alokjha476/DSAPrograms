@@ -13,7 +13,6 @@ public class Linear_Search {
                 // update number
                 smallest = number[i];
             }
-
         }
         System.out.println("Smallest value is =" + smallest);
        return largest;

@@ -1,7 +1,7 @@
 package Alpha4Batch.Recurssion;
 
 import java.util.Scanner;
-
+// time complexity = O(n^2) whis is = exponential TC
 public class Fibonacci {
 
     public static void main(String[] args) {
