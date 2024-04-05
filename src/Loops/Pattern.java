@@ -176,14 +176,14 @@ public class Pattern {
 
         while (n > 0) {
 
-            hollow_Ractangle(10, 7);
+//            hollow_Ractangle(10, 7);
             half_pyramid_withNumber(5);
-            floyd_Trangle(5);
-            butterFly(5);
-            solid_Rhombus(5);
-            hollo_Rhombus(5);
-            diamond(5);
-            half_diamond(5);
+//            floyd_Trangle(5);
+//            butterFly(5);
+//            solid_Rhombus(5);
+//            hollo_Rhombus(5);
+//            diamond(5);
+//            half_diamond(5);
             break;
         }
         if (n == 0){

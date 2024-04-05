@@ -10,7 +10,9 @@ public class Uppercase {
         for (int i = 1; i < str.length(); i++) {
             if (str.charAt(i) == ' ' && i < str.length()-1) {
                 sb.append(str.charAt(i)); // add
-                i++;  // next index
+                while (str.charAt(i) == ' ') {
+                    i++;  // next index
+                }
                 sb.append(Character.toUpperCase(str.charAt(i))); // uppercase and add the string
             }else {
                 sb.append(str.charAt(i));
@@ -20,7 +22,7 @@ public class Uppercase {
     }
 
     public static void main(String[] args) {
-        String str = "i am a alok sharma";
+        String str = "i am a alok    sharma";
         System.out.println(toUppercase(str));
     }
 }

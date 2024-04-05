@@ -66,4 +66,5 @@ public class NQueenAllWay {
         nQueen(board, 0);
         System.out.println("Count the total number of Solution : " + count +  " for n = " + n);
     }
+
 }
