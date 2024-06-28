@@ -10,7 +10,7 @@ public class Break_Continue {
         do {
             System.out.println("Enter your number :");
             int number = sc.nextInt();
-            if (number % 10 == 0 && number%2 == 0) {
+            if (number % 10 == 0) {
                 continue;    // Skip if belong above condition
             }
             System.out.println("your number is :" + number);

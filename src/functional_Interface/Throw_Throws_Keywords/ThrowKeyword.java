@@ -1,4 +1,4 @@
-package Alpha4Batch.Throw_Throws_Keywords;
+package functional_Interface.Throw_Throws_Keywords;
 
 public class ThrowKeyword {
     public static void checkNum(int num) {

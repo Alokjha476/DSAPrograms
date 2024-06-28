@@ -3,7 +3,7 @@ package Alpha4Batch.Programs;
 import java.util.Scanner;
 
 public class Prime_numbyMethod {
-    // The Mathod will return true and false only because its type is boolean
+    // The Method will return true and false only because its type is boolean
     public static boolean Isprime(int n) {
         //boolean isprime = true;
         if (n == 2) {       // corner case

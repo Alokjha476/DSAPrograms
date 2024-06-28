@@ -2,8 +2,8 @@ package Alpha4Batch.Programs;
 
 public class SumOfDigit {
     public static void sum(int number) {
-        int sum = 0;
-        int sumofdigit = sum;
+
+        int sumofdigit =0;
         while (number > 0) {
 
             int lastDigit = number % 10;

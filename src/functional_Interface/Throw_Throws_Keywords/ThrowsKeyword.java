@@ -1,4 +1,4 @@
-package Alpha4Batch.Throw_Throws_Keywords;
+package functional_Interface.Throw_Throws_Keywords;
 
 public class ThrowsKeyword {
     public static void divideNum(int n, int m) throws ArithmeticException {
