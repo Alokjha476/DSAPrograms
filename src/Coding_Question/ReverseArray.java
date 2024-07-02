@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 public class ReverseArray {
     public static void revArray(int[] arr) {

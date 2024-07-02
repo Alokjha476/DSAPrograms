@@ -1,4 +1,4 @@
-package functional_Interface.Throw_Throws_Keywords;
+package Coding_Question.Throw_Throws_Keywords;
 
 public class ThrowsKeyword {
     public static void divideNum(int n, int m) throws ArithmeticException {

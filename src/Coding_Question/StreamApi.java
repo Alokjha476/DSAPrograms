@@ -1,11 +1,7 @@
-package functional_Interface;
+package Coding_Question;
 
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.*;
 
 public class StreamApi {
 
@@ -27,12 +23,15 @@ public class StreamApi {
         hm.put("Adrak", 1);
         hm.put("Tomato", 10);
         System.out.println(hm);
+        Map<String, Integer> hm1 = Collections.synchronizedMap(hm);
+        System.out.println(hm1);
         System.out.println(hm.get("Neebu"));
         Set<String> key = hm.keySet();
         System.out.println(key);
 
         for(String k : key){
             System.out.println(k+"= " +"value" + "="+ hm.get(k));
+
         }
 
 

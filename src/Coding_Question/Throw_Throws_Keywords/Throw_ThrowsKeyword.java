@@ -1,4 +1,4 @@
-package functional_Interface.Throw_Throws_Keywords;
+package Coding_Question.Throw_Throws_Keywords;
 
 public class Throw_ThrowsKeyword {
     public static void method() throws ArithmeticException {

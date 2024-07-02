@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 public class SumOfArray1 {
     public static void sum(int[] arr){
@@ -14,6 +14,8 @@ public class SumOfArray1 {
 
     public static void main(String[] args) {
         int [] array = {1,2,3,4,5};
+        //Find the data type
+       // System.out.println(array.getClass().getSimpleName());
         sum(array);
     }
 }

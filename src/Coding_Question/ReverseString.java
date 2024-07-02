@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 public class ReverseString {
     public static void reverseString(String str) {

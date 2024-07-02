@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 public class StringPalandrom {
     public static boolean isPalandrom(String str) {

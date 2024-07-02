@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 public class ToUpppercase {
     public static String toUppercase(String str) {

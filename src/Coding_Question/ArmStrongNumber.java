@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 import java.util.Scanner;
 

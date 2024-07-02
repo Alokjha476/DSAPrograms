@@ -1,4 +1,4 @@
-package functional_Interface.threads;
+package Coding_Question.threads;
 
 public class TClass extends Thread{
     public void run(){

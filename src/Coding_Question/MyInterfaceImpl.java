@@ -1,4 +1,4 @@
-package functional_Interface;
+package Coding_Question;
 
 public class MyInterfaceImpl implements FunctionalInterface {
     public static void main(String[] args) {
