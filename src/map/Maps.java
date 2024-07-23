@@ -20,6 +20,10 @@ public class Maps {
 
         map.remove("two");
         System.out.println(map);
+       Integer m =  map.size();
+        System.out.println(m);
+
+
 
     }
 

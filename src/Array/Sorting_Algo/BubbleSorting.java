@@ -7,6 +7,7 @@ public class BubbleSorting {
         int n = arr.length - 1;
         for (int i = 0; i < n; i++) {
             boolean swapped = false;
+            // INNER LOOP FOR SORT ARRAY
             for (int j = 0; j < n - i; j++) {
                 // compare 0 idx --> 1 idx
                 if (arr[j] > arr[j + 1]) {
@@ -18,7 +19,7 @@ public class BubbleSorting {
                 }
             }
             // tc = O(N)
-            if (swapped == false) {
+            if (!swapped) {
                 break;
             }
         }
@@ -49,10 +50,10 @@ public class BubbleSorting {
     public static void main(String[] args) {
         int arr[] = {5, 4, 1, 3, 2};
         sorting(arr);
-        printArray(arr);
-        System.out.println();
-        descendingOrder(arr);
-        printArray(arr);
+             printArray(arr);
+//        System.out.println();
+//        descendingOrder(arr);
+//        printArray(arr);
 
 
     }

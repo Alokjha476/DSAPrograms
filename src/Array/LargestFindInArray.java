@@ -1,12 +1,12 @@
 package Array;
 
-public class Linear_Search {
-    public static int getlargestNum(int number[]) {
+public class LargestFindInArray {
+    public static int getlargestNum(int[] number) {
         int largest = Integer.MIN_VALUE; // -infinity  // last conditon 7
         int smallest = Integer.MAX_VALUE;
         for (int i = 0; i < number.length; i++) {
             if (number[i] > largest) {   // 2 < 0
-                // update number
+                // update numbedMIN_VALUEr
                 largest = number[i];
             }
             if (number[i] < smallest){
@@ -21,7 +21,7 @@ public class Linear_Search {
     }
 
     public static void main(String[] args) {
-        int number[] = {2, 4, 3, 5, 6, 7};
+        int[] number = {2, 4, 3, 5, 6, 7};
        System.out.println("Largest number is = " +getlargestNum(number));
 
 

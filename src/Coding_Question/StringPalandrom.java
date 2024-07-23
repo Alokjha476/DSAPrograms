@@ -28,10 +28,12 @@ public class StringPalandrom {
         return true;
     }
 
+
     public static void main(String[] args) {
-        String str = "pop";
+        String str = "popa";
        // System.out.println(isPalandrom(str));
         System.out.println(ispalandrom1(str));
-
+//       isBooleand(str);
+//
     }
 }

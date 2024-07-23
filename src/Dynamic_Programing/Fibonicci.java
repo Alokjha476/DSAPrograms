@@ -12,14 +12,10 @@ public class Fibonicci {
         }
         newArr[n] = fib(n-1, newArr)+ fib(n-2, newArr);
         return newArr[n];
-
     }
     public static void main(String[] args) {
         int n = 5;
         int[] newArr = new int[n+1]; // 5+1 = 6
         System.out.println(fib(n,newArr));
-
-
-
     }
 }

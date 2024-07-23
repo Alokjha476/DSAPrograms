@@ -1,4 +1,4 @@
-package Coding_Question.streamApi;
+package Coding_Question.streamApi.listOpration;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,6 +18,8 @@ public class StreamMain1 {
 
         List<Integer> list2 = list.stream().filter(num -> num > 2).collect(Collectors.toList());
         System.out.println(list2);
+
+
 
 
     }

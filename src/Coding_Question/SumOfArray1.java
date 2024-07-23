@@ -6,7 +6,7 @@ public class SumOfArray1 {
         int n = arr.length-1;
         for (int i = 0; i <=n  ; i++) {
             int current = arr[i];
-            sum = sum+arr[i];
+            sum = sum+current;
         }
         System.out.println(sum);
     }

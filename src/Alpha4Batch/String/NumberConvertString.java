@@ -1,4 +1,5 @@
 package Alpha4Batch.String;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class NumberConvertString {
@@ -6,7 +7,7 @@ public class NumberConvertString {
     public static void checkNumber(Integer num) {
         String[] arr = {"zero", "one", "two", "three", "four", "five", "six", "seven"};
 
-        String str = Integer.toString(num);
+        String str = Arrays.toString(arr);
         int[] numberArray = convertStringToArray(str);
         for (int i = 0; i <numberArray.length ; i++) {
             System.out.print(numberArray[i] + " ");

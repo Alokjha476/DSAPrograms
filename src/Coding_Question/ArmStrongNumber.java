@@ -36,4 +36,27 @@ public class ArmStrongNumber {
             }
         }
     }
+
+    public static class FloydTriangle {
+        public static void main1(int n){
+            int num = 1;
+            for (int i = 1; i <= 5 ; i++) {
+
+                for (int j = 1; j <= i ; j++) {
+
+                    System.out.print(num);
+                    num++;
+                }
+                System.out.println();
+
+            }
+
+
+        }
+
+        public static void main(String[] args) {
+            main1(5);
+
+        }
+    }
 }

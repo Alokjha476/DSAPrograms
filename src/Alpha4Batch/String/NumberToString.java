@@ -32,10 +32,10 @@ public class NumberToString {
                 } else if (num < 100) {
                     System.out.println(ty[b] + " " + sd[b]);
                 } else if (num < 1000){
-                    System.out.println(sd[d] + " " + hun + ""+ ty[c] + "" + sd[a]);
+                    System.out.println(sd[d] + " " + hun + " "+ ty[c] + " " + sd[a]);
                 }
                 else {
-                    System.out.println(sd[e]+ " "+th+" "+sd[d] + " " + hun + ""+ ty[c] + "" + sd[a]);
+                    System.out.println(sd[e]+ " "+th+" "+sd[d] + " " + hun + " "+ ty[c] + " " + sd[a]);
                 }
             }
         }

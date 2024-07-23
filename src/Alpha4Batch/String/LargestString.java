@@ -11,7 +11,7 @@ public class LargestString {
         System.out.println(largest);
     }
     public static void main(String[] args) {
-        String fruits[] = {"Apple", "mango", "papaya", "peas"};
+        String[] fruits = {"Apple", "mango", "papaya", "peas"};
         largeStr(fruits);
     }
 }

@@ -1,7 +1,5 @@
-package Coding_Question.streamApi;
+package Coding_Question.streamApi.listOpration;
 
-import java.util.Arrays;
-import java.util.Objects;
 import java.util.stream.Stream;
 
 public class StreamObject {

@@ -2,12 +2,12 @@ package Alpha4Batch.String;
 
 public class SubStrings {
     public static String subStr(String str, int si, int li) {
-        String subString = "";
+        StringBuilder subString = new StringBuilder();
         for (int i = si; i < li; i++) {
-            subString = subString + str.charAt(i);
+            subString.append(str.charAt(i));
 
         }
-        return subString;
+        return subString.toString();
     }
 
     public static void main(String[] args) {

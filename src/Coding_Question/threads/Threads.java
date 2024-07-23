@@ -12,6 +12,7 @@ public class Threads implements Runnable {
             System.out.println(2*i);
             try {
                 Thread.sleep(100);
+
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

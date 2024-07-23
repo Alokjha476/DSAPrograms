@@ -15,7 +15,7 @@ public class ThrowKeyword {
 
     public static void main(String[] args) {
 
-        checkNum(-3);
+        checkNum(0);
 
     }
 

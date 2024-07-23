@@ -13,6 +13,15 @@ public class ReverseArray {
         }
         System.out.println("reversed array:");
     }
+
+    public static void revArrays(int[] array) {
+        for (int i = array.length; i > 0; i--) {
+            System.out.println(array[i]);
+
+        }
+
+    }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10};
         revArray(arr);

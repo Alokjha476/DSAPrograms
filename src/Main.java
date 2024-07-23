@@ -1,16 +1,29 @@
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import javafx.scene.effect.SepiaTone;
+
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        int [] arr = {5,3,4,2,1,6};
+        int n = arr.length;
+        for (int i = 0; i < n  ; i++) {
+            for (int j = 0; j < arr.length ; j++) {
+                int temp = arr[n-j-1];
+                arr[n-j-1] = arr[j];
+                arr[j] = temp;
 
-        Map<String, Integer> map = new HashMap<>();
-        List<Object> list = new ArrayList<>();
-        map.put("Alok", 1);
-        list.add(6);
-        list.add(7);
-        System.out.println(list.size());
+            }
+
+
+
+
+
+        }
+        for (int arr1 : arr){
+            System.out.println(arr1);
+        }
+
+
+
     }
 }

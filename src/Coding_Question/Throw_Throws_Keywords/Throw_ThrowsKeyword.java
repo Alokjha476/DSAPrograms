@@ -12,6 +12,7 @@ public class Throw_ThrowsKeyword {
             method();
         }catch (Exception e){
             System.out.println("caught in main method()");
+            e.printStackTrace();
         }
 
     }

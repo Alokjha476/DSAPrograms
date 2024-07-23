@@ -3,9 +3,12 @@ package Coding_Question;
 
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 public class FindDuplicates {
+
+
     public static void HashMap1(Integer[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
@@ -45,11 +48,47 @@ public class FindDuplicates {
         }
     }
 
+    public static void findDuplicateElementInArray(Integer[] array) {
+        // 1,2,3,4,5,1,2,3
+        int count = 1;
+        for (int i = 0; i < array.length; i++) {
+            boolean isDuplicate = false;
+            for (int j = 0; j < i; j++) {
+                if (Objects.equals(array[i], array[j])) {
+                    count++;
+                    isDuplicate = true;
+                    break;
+                }
+            }
+            if (isDuplicate){
 
+                System.out.println("Duplicate Element is : "+ array[i] );
+            }
+        }
+        System.out.println(count);
+    }
+    public static void findDuplicate(Integer [] arr){
+        for (int i = 0; i <arr.length ; i++) {
+            for (int j = i+1; j < arr.length ; j++) {
+                if (arr[i] == arr[j]){
+                    System.out.println(arr[i]);
+                }
+
+            }
+
+        }
+
+
+
+    }
     public static void main(String[] args) {
-        Integer[] arr = {1, 2, 3, 4, 5, 1, 2, 3};
-        HashMap1(arr);
-        HasSet1(arr);
+        Integer[] arr = {1, 2, 2, 3, 5,5, 5};
+//        HashMap1(arr);
+//        HasSet1(arr);
+       // findDuplicateElementInArray(arr);
+
+        findDuplicate(arr);
+
 
 
     }
