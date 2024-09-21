@@ -2,17 +2,17 @@ package Alpha4Batch.String;
 
 public class Compression {
     public static StringBuilder check(String str){
-        StringBuilder sb = new StringBuilder("");
+        StringBuilder sb = new StringBuilder();
 
         for (int i = 0; i <str.length() ; i++) {
-            Integer count = 1;
+            int count = 1;
            while (i <str.length()-1 && str.charAt(i) == str.charAt(i+1)){
                count++;
                i++;
            }
            sb.append(str.charAt(i));
-            if (count>1){
-                sb.append(count.toString());
+            if (count>0){
+                sb.append(count);
             }
         }
         return new StringBuilder(sb.toString());

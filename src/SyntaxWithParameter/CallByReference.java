@@ -4,7 +4,7 @@ package SyntaxWithParameter;
 import java.util.ArrayList;
 import java.util.List;
 
-class CallByRefrence {
+class CallByReference {
     public static void addEle(List<Object> list) {
         list.add(1);
         list.add(2);
