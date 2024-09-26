@@ -2,11 +2,11 @@ package Alpha4Batch.String;
 
 public class Uppercase {
     public static String toUppercase(String str) {
-        StringBuilder sb = new StringBuilder("");
-        // for making upercase 0 index
+        StringBuilder sb = new StringBuilder(" ");
+        // for making uppercase 0 index
         char ch = Character.toUpperCase(str.charAt(0));
         sb.append(ch); // Add the string
-        // Check all next charector
+        // Check all next characters
         for (int i = 1; i < str.length(); i++) {
             if (str.charAt(i) == ' ' && i < str.length()-1) {
                 sb.append(str.charAt(i)); // add

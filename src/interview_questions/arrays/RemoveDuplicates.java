@@ -1,7 +1,7 @@
 package interview_questions.arrays;
 
 import java.util.*;
-class RemoveDuplicate {
+class RemoveDuplicates {
     public static void main(String[] args) {
         int[] a = {5, 2, 1, 7, 6, 6, 5, 5};
         Arrays.sort(a);

@@ -13,7 +13,7 @@ public class DeleteElement {
                 j++;
             }
         }
-        for (int i = 0; i <j ; i++) {
+        for (int i = 0; i < j ; i++) {
             System.out.print(arr[i] + " ");
 
         }

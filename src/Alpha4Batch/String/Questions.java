@@ -3,7 +3,7 @@ package Alpha4Batch.String;
 public class Questions {
     public static boolean isPalindrome(String str) {
         // for half
-        for (int i = 0; i < str.length()/2 ; i++) {  // Linear time complexity O(n)
+        for (int i = 0; i < str.length() ; i++) {  // Linear time complexity O(n)
             if (str.charAt(i) != str.charAt(str.length() - 1 - i)) {  // n-1-0
                 // not a palindrome
                 return false;
@@ -42,8 +42,8 @@ public class Questions {
         // Call Q1
         System.out.println(isPalindrome(str));
         // Call Q2
-        String path = "WNEENESENNN";
-        System.out.println(shortestPath(path));
+//        String path = "WNEENESENNN";
+//        System.out.println(shortestPath(path));
 
     }
 }

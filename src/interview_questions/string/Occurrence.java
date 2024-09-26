@@ -1,7 +1,7 @@
 package interview_questions.string;
 
 public class Occurrence {
-    public static StringBuilder findOccurrence(String str) {
+    public static String findOccurrence(String str) {
 
         StringBuilder sb = new StringBuilder(" ");
         for (int i = 0; i < str.length(); i++) {
@@ -15,17 +15,9 @@ public class Occurrence {
             if (count > 0) {
                 sb.append(count);
             }
-
         }
-        return new StringBuilder(sb.toString());
+        return sb.toString();
     }
-
-
-
-
-
-
-
     public static void main(String[] args) {
         String str = "aabbbc";
         System.out.println(findOccurrence(str));
