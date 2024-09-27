@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Palindromnum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int palindrom = sc.nextInt();
-        if (Ispalendrom(palindrom)) {
+        int num = sc.nextInt();
+        if (Ispalendrom(num)) {
             System.out.println("No is Palindrom");
         } else {
             System.out.println("no is not Palindrom");

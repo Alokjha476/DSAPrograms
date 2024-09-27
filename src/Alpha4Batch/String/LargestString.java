@@ -11,7 +11,10 @@ public class LargestString {
         System.out.println(largest);
     }
     public static void main(String[] args) {
+
         String[] fruits = {"mango", "papaya", "peas", "banana"};
+
+       // String[] fruits = {"Apple", "mango", "papaya", "peas"};
         largeStr(fruits);
     }
 }

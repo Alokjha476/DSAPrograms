@@ -16,6 +16,7 @@ public class Operations {
         // print siz of array list
         System.out.println(list.size());
         for (int i = 0; i < list.size() ; i++) {
+
             System.out.print(list.get(i) + " ");
         }
 

@@ -29,15 +29,17 @@ public class Recurssion {
             System.out.print(1 + " ");
             return;
         }
-        increaOrd1(n - 1);
+
         System.out.print(n + " ");
+        increaOrd1(n - 1);
+
     }
 
     public static int factorial(int n) {
         if (n == 0) {
             return 1;
         }
-
+// logic
         int fnm1 = factorial(n - 1);
         int fn = n * fnm1;
         return fn;
@@ -252,6 +254,7 @@ public class Recurssion {
         removeDuplicatesString(str, 0, new StringBuilder(" "), new boolean[26]); */
 //        System.out.println(tilingProblem(4));
 //        System.out.println(optimizedPower(2, 5));
+
         //System.out.println(powerCal(2, 10));
        /* int arr[] = {1, 2, 3, 4, 5, 6, 7, 7, 8, 9};
         System.out.println(lastOcurane(arr, 7, 4));*/
@@ -261,6 +264,7 @@ public class Recurssion {
 
    /* int arr[] = {1,2,3,4,5,9,7,8};
     System.out.println(isSorted(arr,0));*/
+increaOrd1(100);
 
     }
 }

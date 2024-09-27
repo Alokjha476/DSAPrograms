@@ -2,12 +2,12 @@ package Divide_Conquer;
 
 public class MergeSort {
     public static void main(String[] args) {
-        int arr[] = {3, 6, 5, 9, 8, 7};
+        int[] arr = {3, 6, 5, 9, 8, 7};
         mergeSort(arr, 0, arr.length - 1);
         printArray(arr);
     }
 
-    public static void printArray(int arr[]) {
+    public static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
@@ -29,7 +29,7 @@ public class MergeSort {
     public static void merge(int arr[], int si, int ei, int mid) {
 // create a new temp array to store the merge array
         // (left (0 , 3) = 4, right(4,6)= 3  -->4+3 =7) --> ei - si+1 = 6-0+1 = 7
-        int temp[] = new int[ei - si + 1];
+        int[] temp = new int[ei - si + 1];
         int i = si; // iterator of left part
         int j = mid + 1; //iterator of right part
         int k = 0; //iterator of array part

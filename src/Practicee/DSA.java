@@ -1,4 +1,4 @@
-package Practice;
+package Practicee;
 
 public class DSA {
     // linear search

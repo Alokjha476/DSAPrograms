@@ -13,7 +13,7 @@ public class QuickSort {
         if (si >= ei) {
             return;
         }
-        //find the pivet as my  last element
+        //find the pivot as my  last element
         int pivotIndex = partition(arr, si, ei);
         // sort the left part
         quickSort(arr, si, pivotIndex - 1);
