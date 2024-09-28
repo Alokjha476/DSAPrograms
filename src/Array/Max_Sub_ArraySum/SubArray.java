@@ -1,7 +1,7 @@
 package Array.Max_Sub_ArraySum;
 
 public class SubArray {
-    public static void subArray(int number[]) {
+    public static void subArray(int[] number) {
             int ts =0;
         for (int i = 0; i < number.length; i++) { // start
             int start = i;

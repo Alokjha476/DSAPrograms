@@ -1,4 +1,4 @@
-package Java8.collections;
+package interview_questions.map;
 
 import java.util.ArrayList;
 import java.util.HashMap;
