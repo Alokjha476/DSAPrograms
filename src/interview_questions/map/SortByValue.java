@@ -1,5 +1,4 @@
 package interview_questions.map;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -15,12 +14,17 @@ public class SortByValue {
         // Map convert into list
         List<Map.Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
         // sort the list by value
-        list.sort(Map.Entry.comparingByKey());
+        list.sort(Map.Entry.comparingByValue());
         // Print the sorted key with value
-        for (Map.Entry<String, Integer> entry : list) {
-            System.out.println(entry.getKey() + " " + entry.getValue());
-        }
+//        for (Map.Entry<String, Integer> entry : list) {
+//            System.out.println(entry.getKey() + " " + entry.getValue());
+//        }
 
+        // or
+
+        map.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);
+
+        
 
     }
 }
