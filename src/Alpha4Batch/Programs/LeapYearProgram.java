@@ -7,28 +7,12 @@ public class LeapYearProgram {
         Scanner sc = new Scanner(System.in);
         int year = sc.nextInt();
 
-        boolean is_leapYear = false;
+        boolean isLeapYear = (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
 
-        if (year % 4 == 0) {
-            is_leapYear = true;
-
-            if (year % 100 == 0) {
-                is_leapYear = true;
-
-                if (year % 400 == 0) {
-                    is_leapYear = true;
-                } else {
-                    is_leapYear = false;
-                }
-            }
-        } else {
-            is_leapYear = false;
-        }
-
-        if (!is_leapYear) {
-            System.out.println("Is not leap year");
-        } else
+        if (isLeapYear) {
             System.out.println("Leap year");
+        } else {
+            System.out.println("Is not leap year");
+        }
     }
-
 }

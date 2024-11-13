@@ -9,7 +9,7 @@ public class RotateArray {
         int n = array.length;
         int temp = array[0];
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < n-1; i++) {
             array[i - 1] = array[i];
         }
 

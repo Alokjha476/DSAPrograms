@@ -11,7 +11,7 @@ public class BinarySearch {
             if (number[mid] == key) { // found 8 == 10
                 return mid;
             }
-            if (number[mid] < key) { // right or 2nd half 8<106
+            if (number[mid] < key) { // right or 2nd half 8 < 10
                 start = mid + 1;        // update first
             } else {      // left or 1st half
                 end = mid - 1;   //update end

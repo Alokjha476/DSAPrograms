@@ -13,12 +13,12 @@ public class PrimeNum {
             if (num == 2 && num <= 0) {
                 System.out.println("Prime");
             }
-            for (int i = 2; i <= Math.sqrt(num); i++) {   // underroot num or  num-1
-                if (num % i == 0) {
-                    isPrime = false;  // no is not prime
+            for (int i = 2; i <= Math.sqrt(num); i++) {   // under root num or  num-1
+                if (num % i != 0) {
+                    isPrime = false;
                 }
             }
-            if (isPrime == false) {
+            if (!isPrime) {
                 System.out.println("number is not prime");
             } else {
                 System.out.println("number is Prime");
